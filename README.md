@@ -30,11 +30,11 @@ MobileNets are small, low-latency, low-power models parameterized to meet the re
 
 2.Open your favourite code editor(in my case, i opened my vscode).
 
-3.Make a local folder server with **mkdir server** in your terminal.
+3.In your terminal, type **mkdir server** to make a local folder named server.
 
-4.**cd server/** - In your terminal, write this to get inside server folder.
+4.In your terminal, type **cd server/** to get inside server folder.
 
-5.**npm init -y** - This will create a package.json file where all the dependencies of project exists.
+5.In your terminal, type **npm init -y** to create a package.json file where all the dependencies of project exists.
 
 ###### package.json
 
@@ -119,7 +119,7 @@ app.listen(3000, function() {
 
 4.In your terminal, type **touch predict.html** to make a file named as predict.html.
 
-**predict.html** - This will contain all the basic html form part, Bootstrap is used to make it look cooler. Tensorflow js and MobileNet model is imported in to this file.
+**predict.html** - This will contain all the basic html form part, Bootstrap is used to make it look cooler. Tensorflow js and MobileNet model are imported in this file to load the mobileNet model.
 
 ```
 <!DOCTYPE html>
