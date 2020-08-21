@@ -174,17 +174,9 @@ app.listen(3000, function() {
         <script src="files/popper.min.js"></script>
         <script src="files/bootstrap.min.js"></script>
 
-        <!-- <script src="files/@tensorflow/tfjs/dist/tf.min.js"></script>
-        <script src="files/@tensorflow/tfjs/dist/tf.node.js"></script>
-        <script src="files/@tensorflow/tfjs-node"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script> -->
-
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
-
-        <!-- <script src="imagenet_classes.js"></script> -->
         
-        <!-- <script src="predict.js"></script> -->
         <script src="classify.js"></script>
     </body>
 </html>
